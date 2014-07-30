@@ -12,4 +12,12 @@
 
 その他
 ---
+<<<<<<< Updated upstream
 + 画像追加してみた
+=======
+<<<<<<< Updated upstream
+
+=======
++ 画像追加してみたあああ
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
