@@ -1,7 +1,5 @@
 #!/bin/sh
-git checkout master
-git pull origin master
-git checkout -b $owner_name"_"`date +%Y%m%d`
-git add `date +%Y/%m/%d`"/"$owner_name".md"
-git commit -m "`date +%m月%d日`の日報を書きました"
+git checkout $owner_name"_"`date +%Y%m%d`
+git add `date +%Y/%m/%d`"/"
+git commit -m $0
 git push origin $owner_name"_"`date +%Y%m%d`
